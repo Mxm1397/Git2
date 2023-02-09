@@ -4,7 +4,14 @@ public class Maing {
 
         int add(int x, int y) {
             for (int i = 0; i <15 ; i ++) {
-                System.out.println(x+y);
+                System.out.println(x - y);
+            }
+            return 0;
+        }
+
+        int subtract(int x, int y) {
+            for (int i = 0; i < 15; i++) {
+                System.out.println( x+ y);
             }
             return 0;
         }
